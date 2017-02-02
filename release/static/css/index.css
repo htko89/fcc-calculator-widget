@@ -15,6 +15,10 @@ body, html {
   align-items: center;
 }
 
+.card {
+  margin: 1rem 0;
+}
+
 #title .card-header-title {
   font-weight: 300;
 }
