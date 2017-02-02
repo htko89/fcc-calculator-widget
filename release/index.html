@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- metadata -->
+    <title>Calculator Widget</title>
+    <meta name="description" content="Free Code Camp Project - Calculator Widget">
+    <meta name="author" content="Tony Ko">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+    <!-- <link rel="icon" href=".png"> -->
+  <!-- external -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald|Roboto:100,300,400">
+  <!-- libraries -->
+    <link rel="stylesheet" type="text/css" href="static/css/bulma-0.3.1.css">
+    <script type="text/javascript" src="static/js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome-4.7.0.min.css">
+  <!-- widget -->
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+    <script type="text/javascript" src="static/js/index.js"></script>
+  <!-- end -->
+</head>
+<body>
+
+  <!-- widget container -->
+  <section id="main" class="section is-stretch">
+    <div class="container is-stretch">
+      <div id="columns" class="columns is-mobile is-stretch is-centered is-gapless">
+        <div class="column is-12-mobile is-one-quarter-tablet is-one-third-desktop">
+
+          <div class="card">
+            <header id="title" class="card-header">
+              <p class="card-header-title">
+                Calculator
+              </p>
+              <a class="card-header-icon">
+                <span class="icon">
+                  <i class="fa fa-calculator"></i>
+                </span>
+              </a>
+            </header>
+            <div id="display" class="card-content is-paddingless">
+              <div id="primary" class="display">
+                1234
+              </div>
+              <div id="secondary" class="display">
+                1234
+              </div>
+            </div>
+            <footer class="card-footer">
+
+              <div id="buttons" class="columns is-mobile is-multiline is-gapless">
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="ac">ac</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="ce">ce</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="/">/</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="*">*</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="7">7</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="8">8</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="9">9</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="-">-</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="4">4</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="5">5</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="6">6</a>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="+">+</a>
+                </div>
+                <div class="column is-three-quarters">
+                  <div id="columns" class="columns is-mobile is-multiline is-gapless">
+                    <div class="column is-one-third">
+                      <a class="button is-white" value="1">1</a>
+                    </div>
+                    <div class="column is-one-third">
+                      <a class="button is-white" value="2">2</a>
+                    </div>
+                    <div class="column is-one-third">
+                      <a class="button is-white" value="3">3</a>
+                    </div>
+                    <div class="column is-two-thirds">
+                      <a class="button is-white" value="0">0</a>
+                    </div>
+                    <div class="column is-one-third">
+                      <a class="button is-white" value=".">.</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-one-quarter">
+                  <a class="button is-white" value="=">=</a>
+                </div>
+              </div>
+
+            </footer>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
