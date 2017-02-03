@@ -14,7 +14,7 @@ program: 01 - Front End Development Certification
 course: 12 - Advanced Front End Development Projects
 project: 01 - Build a JavaScript Calculator
 photos:
-  - mockup-mobile.jpg
+  - mockup-mobile-m.jpg
 path: code/fcc/calculator-widget
 ---
 # Student Project - Free Code Camp
