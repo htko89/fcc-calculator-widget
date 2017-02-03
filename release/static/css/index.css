@@ -23,10 +23,6 @@ body, html {
   margin: 1rem 0;
 }
 
-#title .card-header-title {
-  font-weight: 300;
-}
-
 #display {
   height: 7rem;
   overflow: hidden;
