@@ -1,21 +1,19 @@
 ---
-type: project
-draft: false
-date: '2017-02-02'
 title: Calculator Widget
-topics:
-  - code
-tools:
-  - bulma
-  - jquery
+date: '2017-02-02'
 link: 'https://htkoca.github.io/fcc-calculator-widget/release/'
 code: 'https://github.com/htkoca/fcc-calculator-widget'
 program: 01 - Front End Development Certification
 course: 12 - Advanced Front End Development Projects
 project: 01 - Build a JavaScript Calculator
+categories:
+  - code
+tags:
+  - bulma
+  - jquery
+cover: cover.jpg
 photos:
   - mockup-mobile-m.jpg
-path: code/fcc/calculator-widget
 ---
 # Student Project - Free Code Camp
 Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/rLJZrA/.
